@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="success-div">
+   <p id="p1">Message Sent !</p> 
+   <p>Thanks for completing the form,We'll be in touch soon</p>
+  </div>
+<div id="Main-div">
+
+  <h1> Contact Us</h1>
+ <div id="names">
+      <div id="first-name">
+       <p> First Name *</p>
+       <input id="fName" type="text">
+       <p id="error-fname"></p>
+      </div>
+      <div id="last-name">
+        <p> Last Name *</p>
+        <input id="lName" type="text">
+        <p id=error-lname></p>
+      </div>
+ </div>
+ <div id="mail">
+  <p>Email Address *</p>
+   <input id="email" type="text">
+   <p id="error-mail"></p>
+ </div>
+ <div id="query"> 
+   <p> Query Type * </p>
+   <button id="gen-btn"> 
+    <input id="gen-radio" type="radio">
+     General Enquiry
+   </button>
+   <button id="sup-btn"> 
+    <input id="sup-radio" type="radio">
+    Support Request
+   </button>
+   <p id="query-error"></p>
+ </div>
+ <div id="message">
+ <p> Message *</p>
+ <input id="message-input" type="text">
+ <p id="error-message"></p>
+ </div>
+ <div id="consent"> 
+ <p> <input id="consent-checkbox" type="checkbox">
+   I Consent to being contacted by the team *</p>
+   <p id="consent-error"></p>
+ </div>
+ <div id="button">
+ <button id="submit-button">Submit</button>
+ </div>
+  
+</div>
+  
+ <script src="script.js"></script>
+</body>
+</html>

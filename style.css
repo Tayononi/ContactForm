@@ -1,0 +1,112 @@
+
+ body{
+  background-color: rgb(206, 225, 231);
+  font-family: cursive;
+ }
+#Main-div{
+  height: 800px;
+  width: 600px;
+  border-radius: 50px;
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin: 10px 0px 0px 350px;
+  display: flex;
+  flex-direction: column;
+}
+#success-div{
+  background-color: rgb(55, 105, 86);
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  margin-left: 500px;
+  opacity:0;
+}
+.filled{
+  opacity:0.5;
+}
+#p1{
+  margin-left: 120px;
+}
+#Main-div input:active, #Main-div input:hover{
+  border-color : rgb(55, 105, 86);
+  border-width: 2px;
+  cursor: pointer;
+}
+p{
+  font-size: 15px;
+}
+input{
+  border-radius: 8px;
+  border-width: 1px;
+}
+#names{
+  display: grid;
+  grid-template-columns: 290px 290px;
+}
+#names input {
+  width: 250px;
+  height: 30px;
+}
+#email{
+  width: 540px;
+  height: 30px;
+}
+#query button{
+  width: 260px;
+  height: 37px;
+  font-size: 17px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border-width: 0px;
+} 
+#query button:hover{
+  cursor: pointer;
+}
+#query button input:checked{
+  accent-color:  rgb(55, 105, 86);
+}
+#message input{
+  width:540px;
+  height: 100px;
+  padding-left:10px;
+}
+#consent p{
+  font-size: 13px;
+}
+#consent-checkbox:checked{
+  accent-color: rgb(55, 105, 86);
+} 
+#consent p:hover{
+  cursor: pointer;
+}
+#submit-button{
+  margin-top: 15px;
+  width: 540px;
+  height: 40px;
+  background-color: rgb(55, 105, 86);
+  border-radius: 3px;
+  border-width: 0px;
+  color: white;
+  font-size: 15px;
+  border-color: rgb(55, 105, 86);
+}
+#submit-button:hover{
+  box-shadow: 1px 1px black;
+  cursor: pointer;
+}
+.empty{
+  border-color: red;
+}
+#error-fname,#error-lname,#error-message,#error-mail,#query-error
+{
+  color: red;
+  font-size: 10px;
+}
+#consent-error{
+  color: red;
+  font-size: 6px;
+}
+.checked{
+  background-color:  rgb(120, 151, 139); ;
+}
